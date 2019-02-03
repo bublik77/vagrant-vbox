@@ -1,5 +1,0 @@
-infrastructure/*.log
-infrastructure/.vagrant
-infrastructure/.*
-
-.gitignore

@@ -25,7 +25,7 @@ then
 else
 	echo -e "\033[0;31mSomething went wrong....\033[0m\n"
 fi
-
+sleep 10
 #Change the mysql root pasword
 mysqladmin --user=root --password=$(cat $GLOBAL_PATH/sql_pass) password $SQL_PASS
 #save password

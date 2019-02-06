@@ -16,6 +16,7 @@ apt-get -y install xwiki-tomcat8-common
 echo '
 <hibernate-configuration>
 			<session-factory>
+			<property name="connection.url">jdbc:mysql://172.16.0.20:3306/xwiki</property>
 			<property name="connection.username">xwiki</property>
 			<property name="connection.password">xwiki</property>
 			<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
